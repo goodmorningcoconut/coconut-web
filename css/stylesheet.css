@@ -1,0 +1,45 @@
+/* font import */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900i');
+
+/* general styling */
+
+body {
+	font-family: 'Raleway', sans-serif;
+	background-image: url("../img/bg-sky.svg"), url('../img/bg-planets.svg');
+	background-position: top, top;
+	background-repeat: repeat;
+}
+
+h1 {
+	color: #df4f4f;
+	font-weight: 900;
+	font-style: italic;
+	text-transform: uppercase;
+	font-size: 36px;
+}
+
+/* header */
+img {
+	width: 100%;
+}
+
+#button-batman {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 100px;
+	height: 100px;
+	background-image: url("../img/menu-contact.svg");
+}
+
+#button-batman:hover {
+	background-image: url("../img/menu-contact-hover.svg");
+}
+
+#manifesto {
+	font-size: 24px;
+	max-width: 600px;
+	margin: 0 auto;
+	top: 200px;
+	color: #fffae6;
+}
