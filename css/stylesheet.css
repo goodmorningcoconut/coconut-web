@@ -16,6 +16,7 @@ h1 {
   font-style: italic;
   text-transform: uppercase;
   font-size: 36px;
+  text-align: center;
 }
 
 /* header */
@@ -42,4 +43,102 @@ img {
   margin: 0 auto;
   top: 200px;
   color: #fffae6;
+}
+
+/* references */
+#references .single-horizontal-line {
+  height: 3px;
+  width: 36vw;
+  margin: 5px auto;
+  background-color: #df4f4f;
+}
+
+#references .double-horizontal-line {
+  height: 6px;
+  width: 36vw;
+  margin: 5px auto 30px auto;
+  background-color: #df4f4f;
+}
+
+/* team */
+#team .single-horizontal-line {
+  height: 3px;
+  width: 13vw;
+  margin: 5px auto;
+  background-color: #df4f4f;
+}
+
+#team .double-horizontal-line {
+  height: 6px;
+  width: 13vw;
+  margin: 5px auto 30px auto;
+  background-color: #df4f4f;
+}
+
+/* CTA */
+
+#cta {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 60vw;
+}
+
+#cta h1 {
+  color: #3d378c;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+/* blog distillerie */
+
+#distillerie {
+  margin: 0 auto;
+  padding: 50px 0;
+  max-width: 60vw;
+  text-align: center;
+  background-image: url('img/distillerie-bg.svg');
+}
+
+#distillerie .single-horizontal-line {
+  height: 3px;
+  width: 36vw;
+  margin: 5px auto;
+  background-color: #df4f4f;
+}
+
+#distillerie .double-horizontal-line {
+  height: 6px;
+  width: 36vw;
+  margin: 5px auto 30px auto;
+  background-color: #df4f4f;
+}
+
+/* footer */
+footer, footer a, footer a:hover {
+  text-align: center;
+  color: #6acaba;
+  font-weight: 900;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 50px 0;
+  text-decoration: none;
+}
+
+footer .single-horizontal-line {
+  height: 3px;
+  width: 35vw;
+  margin: 30px auto 5px auto;
+  background-color: #6acaba;
+}
+
+footer .double-horizontal-line {
+  height: 6px;
+  width: 35vw;
+  margin: 5px auto 30px auto;
+  background-color: #6acaba;
+}
+
+.footer_social_media {
+  display: block;
 }
